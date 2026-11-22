@@ -84,7 +84,7 @@ ul,ol{margin:0}
 
 /* journey map */
 .journey{padding-block:48px;border-bottom:1px solid var(--rule)}
-.route{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;position:relative;margin-top:24px}
+.route{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;position:relative;margin-top:24px}
 .route::before{content:"";position:absolute;left:12px;right:12px;top:15px;height:4px;background:var(--ledger);opacity:.35;border-radius:2px}
 .station{position:relative;padding-right:18px;display:flex;flex-direction:column;gap:8px;min-width:0}
 .station .dot{width:34px;height:34px;border-radius:50%;background:var(--ledger);color:var(--sheet);font:800 .95rem/34px var(--display);text-align:center;position:relative}
@@ -206,9 +206,13 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
       <a href="#m6" data-m="m6"><b>06</b>Automation logic</a>
       <a href="#m7" data-m="m7"><b>07</b>Recipes</a>
       <a href="#m8" data-m="m8"><b>08</b>Agents</a>
-      <a href="#m9" data-m="m9"><b>09</b>Controls</a>
-      <a href="#m10" data-m="m10"><b>10</b>12-week plan</a>
-      <a href="#m11" data-m="m11"><b>11</b>Library</a>
+      <a href="#m9" data-m="close"><b>09</b>Month-end close</a>
+      <a href="#m10" data-m="bank"><b>10</b>Bank rec</a>
+      <a href="#m11" data-m="pl"><b>11</b>P&amp;L</a>
+      <a href="#m12" data-m="bs"><b>12</b>Balance sheet</a>
+      <a href="#m13" data-m="m9"><b>13</b>Controls</a>
+      <a href="#m14" data-m="m10"><b>14</b>12-week plan</a>
+      <a href="#m15" data-m="m11"><b>15</b>Library</a>
     </nav>
     <a class="rankchip" href="#journey" id="rankchip">Rank: Observer</a>
   </div>
@@ -219,15 +223,15 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
 <div class="hero">
   <div class="wrap grid">
     <div class="stack-lg">
-      <p class="eyebrow">A field manual for finance professionals · UAE &amp; Middle East · edition 2</p>
+      <p class="eyebrow">A field manual for finance professionals · UAE &amp; Middle East · edition 3</p>
       <h1>From ledger keeper to <em>agent architect</em></h1>
       <p class="lead col">A complete, plain-language course for an internal accountant at an IT services and consulting company. It takes you from "what is AI?" to building your own Copilot agents, using Microsoft 365 Copilot, which your company already licenses and approves. No coding and no IT background needed.</p>
       <div class="stats">
-        <div><b>4</b><span>parts</span></div>
-        <div><b>11</b><span>modules</span></div>
-        <div><b>9</b><span>automation recipes</span></div>
+        <div><b>5</b><span>parts</span></div>
+        <div><b>15</b><span>modules</span></div>
+        <div><b>16</b><span>automation builds</span></div>
         <div><b>8</b><span>agents explained</span></div>
-        <div><b>24</b><span>ready-made prompts</span></div>
+        <div><b>31</b><span>ready-made prompts</span></div>
       </div>
     </div>
     <div class="journal" aria-label="Example journal entry: time reallocated after AI adoption">
@@ -250,7 +254,7 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
   <div class="wrap stack-lg">
     <div class="stack">
       <p class="eyebrow">The route</p>
-      <h2>Four parts, each building on the last</h2>
+      <h2>Five parts, each building on the last</h2>
       <p class="lead col">The order matters. You cannot automate what you cannot explain to the AI, and you cannot explain it until you know what AI is good at. Mark each module complete as you go: your rank rises as you progress, and progress is saved in this browser.</p>
     </div>
     <div class="route">
@@ -260,8 +264,10 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
         <ul><li><a href="#m3"><b>03</b>Your month-end, mapped</a></li><li><a href="#m4"><b>04</b>Prompting masterclass</a></li><li><a href="#m5"><b>05</b>Copilot, app by app</a></li></ul></div>
       <div class="station"><div class="dot">III</div><h3>Automate</h3><p>Make work happen without you pressing buttons.</p>
         <ul><li><a href="#m6"><b>06</b>Automation logic</a></li><li><a href="#m7"><b>07</b>Nine recipes</a></li><li><a href="#m8"><b>08</b>AI agents</a></li></ul></div>
-      <div class="station"><div class="dot">IV</div><h3>Govern &amp; grow</h3><p>Stay in control and turn wins into a career story.</p>
-        <ul><li><a href="#m9"><b>09</b>Controls</a></li><li><a href="#m10"><b>10</b>12-week plan</a></li><li><a href="#m11"><b>11</b>Library &amp; glossary</a></li></ul></div>
+      <div class="station"><div class="dot">IV</div><h3>Core processes</h3><p>Close, cash, profit and position, and how to automate each.</p>
+        <ul><li><a href="#m9"><b>09</b>Month-end close</a></li><li><a href="#m10"><b>10</b>Bank reconciliation</a></li><li><a href="#m11"><b>11</b>Profit &amp; loss</a></li><li><a href="#m12"><b>12</b>Balance sheet</a></li></ul></div>
+      <div class="station"><div class="dot">V</div><h3>Govern &amp; grow</h3><p>Stay in control and turn wins into a career story.</p>
+        <ul><li><a href="#m13"><b>13</b>Controls</a></li><li><a href="#m14"><b>14</b>12-week plan</a></li><li><a href="#m15"><b>15</b>Library &amp; glossary</a></li></ul></div>
     </div>
     <div class="stack-sm">
       <p class="eyebrow">Your rank</p>
@@ -352,7 +358,7 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
     <div class="stack-lg">
       <p class="col analogy">A GPS that is brilliant on Sheikh Zayed Road but occasionally sends you down a closed service lane in Al Quoz. You keep using GPS. You also keep your eyes on the road, especially in unfamiliar areas.</p>
 
-      <div class="note col"><strong>The evidence.</strong> In a Harvard Business School and BCG experiment, 758 consultants with AI finished tasks inside AI's abilities faster and to a higher quality. On a task just outside those abilities, the consultants using AI were more likely to get the answer wrong, because they trusted output that looked convincing. See the paper in the library (module 11).</div>
+      <div class="note col"><strong>The evidence.</strong> In a Harvard Business School and BCG experiment, 758 consultants with AI finished tasks inside AI's abilities faster and to a higher quality. On a task just outside those abilities, the consultants using AI were more likely to get the answer wrong, because they trusted output that looked convincing. See the paper in the library (module 15).</div>
 
       <div class="grid2">
         <div class="card good"><h4>Inside the frontier: use it hard, still review</h4>
@@ -438,6 +444,8 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
         </table>
       </div>
 
+      <p class="col tip">Part IV goes deeper on four rows of this calendar: the <a href="#m9">month-end close</a> as a whole, <a href="#m10">bank reconciliation</a>, the <a href="#m11">profit and loss</a> and the <a href="#m12">balance sheet</a>.</p>
+
       <h3>Why now: what is changing in the UAE</h3>
       <div class="grid2">
         <div class="card"><p class="term">E-invoicing · Peppol PINT AE</p><h4>PDF invoices are being replaced by structured data</h4><p>Businesses with annual revenue of AED 50 million or more had to appoint an Accredited Service Provider by 30 October 2026 and must go live on 1 January 2027. Businesses below that threshold follow on 1 July 2027, and government entities on 1 October 2027. Failing to implement or appoint an ASP costs AED 5,000 per month of delay.</p><p class="analogy">Moving from posting cheques to bank transfers. The invoice becomes data a machine reads instantly, which is exactly what automation needs. Clean master data now makes this painless.</p></div>
@@ -452,7 +460,7 @@ table.t td.wd{font:500 .85rem var(--mono);color:var(--ledger);white-space:nowrap
       </div>
 
       <div class="modfoot">
-        <p><strong>Do this today.</strong> Print or copy the calendar above. Next to each row, write how many hours that task takes you per month. Circle the three biggest numbers that are also repetitive. Those are your first three targets, and they feed the calculator in module 10.</p>
+        <p><strong>Do this today.</strong> Print or copy the calendar above. Next to each row, write how many hours that task takes you per month. Circle the three biggest numbers that are also repetitive. Those are your first three targets, and they feed the calculator in module 14.</p>
         <button class="donebtn" type="button" data-done="m3" aria-pressed="false">Mark module 03 complete</button>
       </div>
     </div>
@@ -993,6 +1001,521 @@ Never give tax or legal advice beyond what the documents say. Never discuss indi
 </section>
 
 <style>
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.kpi{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.kpi .k{font:500 .72rem/1.2 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ledger)}
+.kpi h4{font-size:1.1rem}
+.kpi p{font-size:.92rem;color:var(--muted)}
+.sim{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:16px}
+.sim-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.sim-grid > div{min-width:0}
+.sim h4{margin-bottom:8px}
+table.t.sm{min-width:440px;font-size:.88rem}
+table.t.sm td,table.t.sm th{padding:9px 10px}
+table.t.sm td:first-child{white-space:nowrap}
+@media (max-width:520px){.sim{padding:14px}}
+table.t td.num,table.t th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.t td.num{font-family:var(--mono);font-weight:400}
+.chip{display:inline-block;font:500 .7rem/1 var(--mono);padding:5px 7px;border-radius:999px;white-space:nowrap;background:var(--code-bg);color:var(--muted)}
+.chip.m{background:var(--ledger-soft);color:var(--ledger)}
+.chip.x{background:var(--amber-soft);color:var(--amber)}
+.sim-ctrl{display:flex;flex-wrap:wrap;gap:8px}
+.btn[disabled]{opacity:.45;cursor:default;filter:none}
+.sim-msg{padding:12px 14px;border-radius:8px;background:var(--code-bg);font-size:.95rem}
+.recstmt{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.recstmt table{width:100%;border-collapse:collapse;font-size:.93rem;font-variant-numeric:tabular-nums}
+.recstmt td{padding:7px 0;border-bottom:1px dashed var(--rule)}
+.recstmt td.n{text-align:right;font-family:var(--mono);white-space:nowrap;padding-left:12px}
+.recstmt tr.tot td{font-weight:700;border-bottom:0;border-top:2px solid var(--ink);color:var(--ledger)}
+.fs td.sub{padding-left:28px;font-weight:400}
+.fs tr.st td{font-weight:700;background:var(--code-bg)}
+.fs tr.grand td{font-weight:800;background:var(--ledger-soft);color:var(--ledger)}
+.ecl input{width:80px;font:500 .9rem var(--mono);padding:6px 8px;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink);text-align:right}
+.ecl-out{display:flex;flex-wrap:wrap;gap:28px;padding:18px;background:var(--ledger-soft);border-radius:0 0 10px 10px}
+.ecl-out .big{font:800 1.9rem/1 var(--display);color:var(--ledger);font-variant-numeric:tabular-nums}
+.ecl-out .lbl{font-size:.85rem;color:var(--muted)}
+.calcbox{background:var(--code-bg);border-radius:10px;padding:16px 18px;font:400 .9rem/1.7 var(--mono);overflow-x:auto}
+.calcbox b{color:var(--ledger);font-weight:500}
+@media (max-width:900px){
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sim-grid,.recstmt{grid-template-columns:1fr}
+}
+@media (max-width:520px){.kpis{grid-template-columns:1fr}}
+</style>
+
+<!-- ================= PART IV : CORE PROCESSES ================= -->
+<div class="partband"><div class="wrap"><p class="eyebrow">Part IV · Master the core processes</p><h2>Close, cash, profit and position</h2><p>Four deep-dive modules on the processes that define an accountant's month: the month-end close, bank reconciliation, the profit and loss statement and the balance sheet. For each one: what it is in plain terms, where the effort goes in an IT services company, the automation opportunities, and exactly how to build them.</p></div></div>
+
+<!-- 09 CLOSE -->
+<section class="mod" id="m9">
+  <div class="wrap">
+    <div class="mod-head">
+      <div class="mod-num">09</div>
+      <div class="stack">
+        <p class="eyebrow">Module 09 · 75 minutes</p>
+        <h2>The month-end close</h2>
+        <p class="lead col">The close turns a month of thousands of transactions into a small set of numbers that management can trust and act on. It is a project that repeats every month with a fixed deadline, many owners and strict dependencies, which is exactly what makes it so suitable for automation.</p>
+        <div class="outcomes"><b>After this module you can</b><ul><li>Describe the four phases of the close and what each produces</li><li>Measure your close with five KPIs</li><li>Apply the six-rung close automation ladder</li><li>Build a "Close Command Centre" that tracks and chases the close for you</li></ul></div>
+      </div>
+    </div>
+
+    <div class="stack-lg">
+      <p class="col analogy">A Formula 1 pit stop. Twenty people, each with one job, working in parallel and in a fixed order: the tyre can't go on until the old one is off. A great pit stop is not people moving faster. It is better choreography, better tools and fewer surprises. A great close is the same.</p>
+
+      <h3>What the close produces</h3>
+      <div class="flow"><span>Daily transactions</span><i>→</i><span>Sub-ledgers: AR, AP, payroll, fixed assets</span><i>→</i><span>General ledger</span><i>→</i><span>Adjustments: accruals, revenue, IC, recs</span><i>→</i><span>Trial balance</span><i>→</i><span>P&amp;L, balance sheet, cash flow</span><i>→</i><span>Management pack</span></div>
+      <p class="col">Each arrow is a hand-over, and each hand-over is a place where work waits. Most close delays are waiting time, not working time: a recharge invoice not yet received, a reviewer on leave, a project manager who hasn't confirmed milestone acceptance.</p>
+
+      <h3>The four phases</h3>
+      <div class="tbl-wrap">
+        <table class="t">
+          <tr><th>Phase</th><th>When</th><th>What happens</th><th>Typical pain in IT services</th><th>Automation opportunity</th></tr>
+          <tr><td>1 · Pre-close</td><td class="wd">WD-5 to WD-1</td><td>Cut-off reminders, accrual preparation, unbilled revenue review, timesheet lock, intercompany cut-off agreed.</td><td>Late timesheets, unconfirmed milestones, recharges not agreed with the delivery centre.</td><td>Automated reminders; leakage check (Recipe F); accrual list from open POs.</td></tr>
+          <tr><td>2 · Core close</td><td class="wd">WD1 to WD3</td><td>Sub-ledgers closed, bank recs, accruals and reversals posted, revenue recognised, IC matched, payroll and depreciation booked.</td><td>Manual journals, ticking recs, chasing IC counterparts.</td><td>Recurring and auto-reversing journals; reconciliation agent; IC agent (module 08).</td></tr>
+          <tr><td>3 · Consolidate &amp; report</td><td class="wd">WD3 to WD5</td><td>GCC entities translated and consolidated, P&amp;L and balance sheet reviewed, variances explained, pack issued.</td><td>Copy-paste consolidation; commentary written from scratch.</td><td>Power Query consolidation (Recipe B); Copilot commentary (Recipe A); pack build (Recipe G).</td></tr>
+          <tr><td>4 · Post-close</td><td class="wd">WD6+</td><td>Balance sheet reconciliations certified, audit evidence filed, lessons captured, next month's calendar set.</td><td>Recs finished late or not reviewed; same problems every month.</td><td>Rec hub with sign-off workflow (module 12); Copilot summary of issues log.</td></tr>
+        </table>
+      </div>
+
+      <h3>Measure it: five close KPIs</h3>
+      <div class="kpis">
+        <div class="kpi"><span class="k">Days to close</span><h4>Working days to issue the pack</h4><p>Track the trend; aim to remove one day each quarter rather than a big-bang target.</p></div>
+        <div class="kpi"><span class="k">On-time tasks</span><h4>% of checklist tasks done by due day</h4><p>Shows where the critical path really breaks, and who needs help.</p></div>
+        <div class="kpi"><span class="k">Post-close adjustments</span><h4>Entries after the pack is issued</h4><p>A quality measure. Speed without quality is not progress.</p></div>
+        <div class="kpi"><span class="k">Manual journals</span><h4>Count and value per month</h4><p>Every recurring manual journal is an automation candidate.</p></div>
+        <div class="kpi"><span class="k">Recs on time</span><h4>% of balance sheet accounts reconciled and reviewed</h4><p>The control auditors look at first.</p></div>
+        <div class="kpi"><span class="k">Aged reconciling items</span><h4>Items open over 60 days</h4><p>Old items hide errors and fraud; this number should shrink.</p></div>
+      </div>
+
+      <h3>The close automation ladder</h3>
+      <p class="col">Always climb from the bottom. Automating a step you could have eliminated is wasted effort, and AI on top of unstandardised work just produces inconsistent drafts faster.</p>
+      <div class="ladder">
+        <div class="rung"><div class="lvl">1</div><div><h4>Eliminate</h4><p>Stop doing work that adds no value.</p><p class="ex">Reconcile dormant, zero-balance accounts quarterly instead of monthly. Drop pack pages nobody reads. Raise the materiality threshold for accruals.</p></div><div class="meta">No tools<br>Manager approval</div></div>
+        <div class="rung"><div class="lvl">2</div><div><h4>Standardise</h4><p>Same templates, same checklist, same cut-off every month.</p><p class="ex">One journal upload template, one reconciliation template, one close calendar for all GCC entities.</p></div><div class="meta">Excel, SharePoint</div></div>
+        <div class="rung"><div class="lvl">3</div><div><h4>Automate inside the ERP</h4><p>Use features your ERP already has; they are often switched off.</p><p class="ex">Recurring journals (rent, licences), auto-reversing accruals, allocation cycles for shared costs, automatic depreciation, bank statement import and matching rules.</p></div><div class="meta">SAP / Oracle / D365<br>Ask ERP team</div></div>
+        <div class="rung"><div class="lvl">4</div><div><h4>Automate around the ERP</h4><p>Connect the steps between systems.</p><p class="ex">Power Query for consolidation and schedules; Power Automate for reminders, approvals and filing evidence.</p></div><div class="meta">Power Query<br>Power Automate</div></div>
+        <div class="rung"><div class="lvl">5</div><div><h4>Augment with AI</h4><p>AI drafts the parts that need language or pattern spotting.</p><p class="ex">Variance commentary, flux explanations, exception triage, close status summaries.</p></div><div class="meta">Copilot, Analyst<br>Finance agents</div></div>
+        <div class="rung"><div class="lvl">6</div><div><h4>Orchestrate with agents</h4><p>An agent coordinates the close and chases what is late.</p><p class="ex">A Close Coordinator agent that knows every task, owner and dependency, and answers "what is blocking the close?"</p></div><div class="meta">Copilot Studio<br>With IT</div></div>
+      </div>
+
+      <h3>Build J: the Close Command Centre</h3>
+      <div class="recipe" id="rJ">
+        <div class="stack-sm"><p class="eyebrow">Microsoft Lists + Power Automate + Teams</p><h4>A live close checklist that reminds owners, routes reviews and reports status</h4>
+        <div class="meta"><span class="pill p-med">Medium</span><span class="pill p-neutral">Saves ~4 hrs / month of chasing</span><span class="pill p-neutral">Needs Power Automate</span></div></div>
+        <div class="ba"><div class="before"><b>Before</b>An Excel checklist emailed around, "is this done?" messages all day, and nobody sure what is blocking the close.</div><div class="after"><b>After</b>One live list. Owners get a reminder the morning a task is due, reviewers get an approval request, and the team channel gets a 09:00 status post.</div></div>
+        <ol class="steps">
+          <li><span>In Microsoft Lists, create a list called <b>Close Checklist</b> with the columns shown below. Add every close task once (most teams have 60–120).</span></li>
+          <li><span>Create a second small list, <b>Close Calendar</b>, mapping each working day (WD-5 to WD10) to a date for the coming month. Exclude Saturdays and Sundays (the UAE weekend) and public holidays such as Eid, which move each year.</span></li>
+          <li><span>Flow 1, <b>Morning reminders</b>: a scheduled cloud flow every working day at 08:00 gets today's WD from Close Calendar, gets checklist items due today or earlier with Status not "Reviewed", and sends each owner a Teams message listing their tasks.</span></li>
+          <li><span>Flow 2, <b>Review routing</b>: when an item's Status changes to "Prepared", start an Approval for the Reviewer with the Evidence link. On approval set Status to "Reviewed"; on rejection set it back to "In progress" with the comment.</span></li>
+          <li><span>Flow 3, <b>Status post</b>: at 09:00 post a summary to your Close Teams channel: tasks complete, due today, overdue by owner, and blocked items.</span></li>
+          <li><span>Create a List view grouped by Phase and filtered to "not Reviewed". This is your live close dashboard; pin it as a tab in the Teams channel.</span></li>
+          <li><span>After the close, ask Copilot in Teams: "Summarise this month's close channel: what ran late, why, and what we should change next month." Add the answers to next month's checklist.</span></li>
+        </ol>
+        <pre class="code" id="closecols">Close Checklist columns
+Task            Single line of text   e.g. "Bank reconciliation – AED operating account"
+Entity          Choice                UAE01, KSA01, QAT01, KWT01, OMN01, BHR01
+Phase           Choice                Pre-close, Core close, Report, Post-close
+Due WD          Number                e.g. 1  (working day 1)
+Owner           Person
+Reviewer        Person
+Depends on      Lookup (this list)    the task that must finish first
+Status          Choice                Not started, In progress, Prepared, Reviewed, Blocked
+Evidence        Hyperlink             link to the reconciliation or journal support
+Blocker note    Multiple lines        why it is blocked, who is needed</pre>
+        <button class="copy" type="button" data-copy="closecols">Copy column list</button>
+        <p class="analogy">An airport departures board. Every flight (task) has a gate (owner), a time (due WD) and a status. Nobody phones the airline to ask; they look at the board.</p>
+        <p class="ctrl"><b>Control:</b> the Reviewer cannot be the Owner (set this in the flow's condition). The list's version history is your audit trail of who prepared and reviewed what, and when.</p>
+      </div>
+
+      <h3>Next level: the Close Coordinator agent</h3>
+      <div class="canvas">
+        <div><b>Goal</b><span>Pack issued by WD5 with all critical-path tasks reviewed.</span></div>
+        <div><b>Knowledge</b><span>Close Checklist, Close Calendar, last three months' close issue logs.</span></div>
+        <div><b>What it does</b><span>Answers "what is blocking the close?", predicts which tasks will slip from dependencies, drafts chasers, and writes the daily status for the controller.</span></div>
+        <div><b>Checkpoints &amp; permissions</b><span>Read-only on the list; messages to owners need your approval for the first three months.</span></div>
+      </div>
+
+      <h3>The destination: continuous close</h3>
+      <p class="col">Leading finance teams move work out of the close window into the month: bank reconciliations daily, intercompany matched weekly, accruals reviewed mid-month, so WD1–3 is review rather than preparation.</p>
+      <p class="col analogy">Washing up while you cook. The meal takes the same effort, but you don't face a mountain of dishes at the end of the night.</p>
+
+      <div class="modfoot">
+        <p><strong>Do this today.</strong> Write down your last close as a list of tasks with the day each one actually finished. Mark the three that most often run late. Ask yourself for each: eliminate, standardise, ERP feature, Power Automate, or AI?</p>
+        <button class="donebtn" type="button" data-done="close" aria-pressed="false">Mark module 09 complete</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 BANK REC -->
+<section class="mod" id="m10">
+  <div class="wrap">
+    <div class="mod-head">
+      <div class="mod-num">10</div>
+      <div class="stack">
+        <p class="eyebrow">Module 10 · 75 minutes, with a hands-on simulator</p>
+        <h2>Bank reconciliation</h2>
+        <p class="lead col">The bank reconciliation proves that the cash in your books is the cash in the bank. It is the most automatable reconciliation in finance, because both sides are structured data, and the most important one, because it is where errors and fraud surface first.</p>
+        <div class="outcomes"><b>After this module you can</b><ul><li>Explain the four types of reconciling item and the proof formula</li><li>Design matching rules and see how a machine applies them</li><li>Choose the right automation level, from Excel formulas to ERP auto-matching</li></ul></div>
+      </div>
+    </div>
+
+    <div class="stack-lg">
+      <p class="col analogy">Two scorers keeping the score of the same cricket match from opposite ends of the ground. At the end of the innings their totals differ: one saw a boundary the other recorded a ball later, and one missed a wide. Reconciling is walking over and agreeing every difference, so the final score is beyond doubt.</p>
+
+      <h3>The four reasons the bank and your books differ</h3>
+      <div class="grid2">
+        <div class="card"><p class="term">Timing · in your books, not yet at the bank</p><h4>Deposits in transit</h4><p>A customer receipt recorded on 30 November that the bank credits on 1 December.</p><p class="small"><b>Treatment:</b> no journal; add to the bank balance on the reconciliation. It should clear in a few days.</p></div>
+        <div class="card"><p class="term">Timing · in your books, not yet at the bank</p><h4>Unpresented cheques</h4><p>A cheque given to the landlord on 29 November and not yet cashed. Post-dated cheques (PDCs), common in the UAE, belong here only once their date has passed.</p><p class="small"><b>Treatment:</b> no journal; deduct from the bank balance. Follow up cheques older than 6 months.</p></div>
+        <div class="card"><p class="term">At the bank, not yet in your books</p><h4>Bank charges, interest, direct debits</h4><p>Transfer fees, profit on deposits, a direct debit for a software subscription.</p><p class="small"><b>Treatment:</b> post a journal in the books this month.</p></div>
+        <div class="card"><p class="term">Mistakes</p><h4>Errors on either side</h4><p>A receipt posted to the wrong bank account, a transposed amount (AED 46,250 keyed as 42,650), or a bank error.</p><p class="small"><b>Treatment:</b> correct your entry, or ask the bank to correct theirs. Never "plug".</p></div>
+      </div>
+      <div class="calcbox">Balance per bank statement<br>+ <b>deposits in transit</b><br>− <b>unpresented cheques</b><br>= Adjusted bank balance<br><br>Balance per books (GL)<br>+ <b>bank credits not yet booked</b> (interest, receipts)<br>− <b>bank debits not yet booked</b> (charges, direct debits)<br>± <b>corrections of book errors</b><br>= Adjusted book balance<br><br>The two adjusted balances must be <b>exactly equal</b>.</div>
+
+      <h3>Simulator: watch a machine reconcile</h3>
+      <p class="col">This is how the Copilot reconciliation agent, Power Query and ERP matching engines work: they apply rules in order, from strictest to loosest, and leave the exceptions for you. Press each rule in turn.</p>
+      <div class="sim" id="sim">
+        <div class="sim-grid">
+          <div><h4>Bank statement · November · AED</h4><div class="tbl-wrap"><table class="t sm" id="simB"></table></div></div>
+          <div><h4>General ledger cash account · November · AED</h4><div class="tbl-wrap"><table class="t sm" id="simG"></table></div></div>
+        </div>
+        <div class="sim-ctrl">
+          <button class="btn" type="button" id="simR1">Rule 1 · amount + reference</button>
+          <button class="btn" type="button" id="simR2" disabled>Rule 2 · amount + date ±3 days</button>
+          <button class="btn" type="button" id="simR3" disabled>Rule 3 · many-to-one by customer</button>
+          <button class="btn" type="button" id="simR4" disabled>Classify exceptions</button>
+          <button class="btn ghost" type="button" id="simReset">Reset</button>
+        </div>
+        <p class="sim-msg" id="simMsg" aria-live="polite"></p>
+        <div class="recstmt" id="simRec" hidden></div>
+      </div>
+      <p class="col small muted">Illustrative data. Opening balances on both sides were agreed at AED 500,000.00.</p>
+
+      <h3>Five levels of bank reconciliation automation</h3>
+      <div class="tbl-wrap">
+        <table class="t">
+          <tr><th>Level</th><th>How it works</th><th>Tool</th><th>Best for</th><th>Effort</th></tr>
+          <tr><td>1 · Formula matching</td><td>A key column joins amount and reference; XLOOKUP finds the match on the other side.</td><td>Excel</td><td>Getting started this week; small accounts.</td><td><span class="pill p-easy">Easy</span></td></tr>
+          <tr><td>2 · Power Query matching</td><td>Merge queries apply rules 1–3; refresh each month with new exports.</td><td>Power Query</td><td>Several accounts with consistent export formats.</td><td><span class="pill p-med">Medium</span></td></tr>
+          <tr><td>3 · Copilot reconciliation agent</td><td>The agent suggests matching rules, reports matched, possible and unmatched items, and can run on a schedule (Recipe C).</td><td>Finance agents in Excel</td><td>Bank and intercompany recs with exception review.</td><td><span class="pill p-med">Medium</span></td></tr>
+          <tr><td>4 · ERP auto-reconciliation</td><td>Bank statements arrive daily in standard formats (MT940 or CAMT.053) and the ERP matches them with configured rules; cash application clears customer receipts against open invoices.</td><td>SAP, Oracle, Dynamics 365 bank modules</td><td>High volume; the target state for operating accounts.</td><td><span class="pill p-hard">With ERP team</span></td></tr>
+          <tr><td>5 · Continuous, exception-only</td><td>Daily auto-matching; an agent explains exceptions and drafts queries; you review items, not lists.</td><td>ERP + agent (e.g. SAP Cash Management agent)</td><td>Mature teams; the "continuous close".</td><td><span class="pill p-hard">Advanced</span></td></tr>
+        </table>
+      </div>
+
+      <h3>Build K: Excel matching you can set up today</h3>
+      <div class="recipe" id="rK">
+        <div class="stack-sm"><p class="eyebrow">Excel formulas · level 1</p><h4>Rule-based matching with two helper columns</h4>
+        <div class="meta"><span class="pill p-easy">Easy</span><span class="pill p-neutral">Saves ~3 hrs / month per account</span><span class="pill p-neutral">Excel only</span></div></div>
+        <ol class="steps">
+          <li><span>Paste the bank statement into a table called <b>Bank</b> (Date, Ref, Amount) and the GL cash detail into a table called <b>GL</b> (Date, Ref, Amount). Use the same sign convention on both: receipts positive, payments negative.</span></li>
+          <li><span>In both tables add a column <b>Key1</b> joining reference and amount. Make references comparable first: upper case, no spaces.</span></li>
+          <li><span>In Bank add <b>Match1</b>: look up Key1 in GL. Anything found is matched by rule 1.</span></li>
+          <li><span>For rows still unmatched, add <b>Match2</b>: find a GL row with the same amount and a date within 3 days.</span></li>
+          <li><span>Filter to rows with no match. These are your reconciling items; classify each using the four types above.</span></li>
+          <li><span>Stuck on a formula? Paste the table headers into Copilot and use the <i>Excel formula helper</i> prompt in module 04.</span></li>
+        </ol>
+        <pre class="code" id="recf">Key1   =UPPER(SUBSTITUTE([@Ref]," ",""))&amp;"|"&amp;TEXT([@Amount],"0.00")
+Match1 =XLOOKUP([@Key1],GL[Key1],GL[Ref],"")
+Match2 =IF([@Match1]&lt;&gt;"","",IFERROR(INDEX(FILTER(GL[Ref],(GL[Amount]=[@Amount])*(ABS(GL[Date]-[@Date])&lt;=3)),1),""))
+Status =IF([@Match1]&lt;&gt;"","Rule 1",IF([@Match2]&lt;&gt;"","Rule 2","Exception"))</pre>
+        <button class="copy" type="button" data-copy="recf">Copy formulas</button>
+        <p class="ctrl"><b>Control:</b> a rule-2 match on amount alone can pair the wrong items when two payments share an amount. Review every rule-2 match; that is why it comes after rule 1.</p>
+      </div>
+
+      <h3>Controls that matter more once it is automated</h3>
+      <div class="grid2">
+        <div class="card"><h4>Who does what</h4><ul><li>The preparer is not the person who makes or approves payments.</li><li>A reviewer signs off every account every month, with date.</li><li>Changes to matching rules are approved and logged, like any system change.</li></ul></div>
+        <div class="card"><h4>What to watch</h4><ul><li>Reconciling items older than 30 days are escalated; older than 90 days, reported to the controller.</li><li>Unidentified receipts are investigated, never left in suspense.</li><li>Any payment to a new or changed beneficiary is verified against the vendor master.</li></ul></div>
+      </div>
+
+      <div class="modfoot">
+        <p><strong>Do this today.</strong> Take last month's smallest bank account and run Build K on it. Count how many lines rule 1 matched. That percentage is your business case for levels 3 and 4.</p>
+        <button class="donebtn" type="button" data-done="bank" aria-pressed="false">Mark module 10 complete</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 P&L -->
+<section class="mod" id="m11">
+  <div class="wrap">
+    <div class="mod-head">
+      <div class="mod-num">11</div>
+      <div class="stack">
+        <p class="eyebrow">Module 11 · 75 minutes</p>
+        <h2>The profit and loss statement</h2>
+        <p class="lead col">The P&amp;L tells the story of a period: what the company earned, what it cost to earn it, and what was left. In an IT services company, the story is mostly about people: how many hours were billed, at what rate, and what those people cost.</p>
+        <div class="outcomes"><b>After this module you can</b><ul><li>Read an IT services P&amp;L line by line and know where each number comes from</li><li>Calculate fixed-price revenue using percentage of completion</li><li>Find the P&amp;L processes worth automating, and build a flash P&amp;L and flux analysis</li></ul></div>
+      </div>
+    </div>
+
+    <div class="stack-lg">
+      <p class="col analogy">The P&amp;L is a film of the month; the balance sheet is a photograph taken on the last day. The film shows the action (sales made, salaries paid); the photograph shows where everything ended up.</p>
+      <p class="col analogy">For an IT services firm, think of a taxi company. Revenue is the meter running with a passenger on board. The biggest cost is the drivers, paid whether or not the meter is running. Profit depends on how many hours the meter runs (utilisation) and the fare per hour (rate).</p>
+
+      <h3>An IT services P&amp;L, line by line</h3>
+      <p class="col small muted">Illustrative one-month P&amp;L for a UAE IT services entity, AED thousands.</p>
+      <div class="tbl-wrap">
+        <table class="t fs">
+          <tr><th>Line</th><th class="num">AED '000</th><th>Where the number comes from</th><th>Automation opportunity</th></tr>
+          <tr><td class="sub">Time &amp; materials</td><td class="num">6,200</td><td>Approved timesheets × contract rates, invoiced monthly.</td><td>Billing run from timesheets; leakage check (Recipe F).</td></tr>
+          <tr><td class="sub">Fixed-price projects</td><td class="num">3,400</td><td>Percentage of completion: cost to date ÷ estimated total cost.</td><td>POC schedule in Power Query (below).</td></tr>
+          <tr><td class="sub">Managed services</td><td class="num">2,900</td><td>Monthly fee recognised evenly over the contract.</td><td>Recurring revenue schedule; ERP billing plans.</td></tr>
+          <tr><td class="sub">Licence resale</td><td class="num">1,500</td><td>Recognised on delivery; principal or agent judgement.</td><td>Contract register flags (Recipe I).</td></tr>
+          <tr class="st"><td>Revenue</td><td class="num">14,000</td><td colspan="2"></td></tr>
+          <tr><td class="sub">Delivery staff cost</td><td class="num">(6,100)</td><td>Payroll for billable staff, including EOSB and leave accruals.</td><td>Payroll journal generated from the payroll file.</td></tr>
+          <tr><td class="sub">Subcontractors</td><td class="num">(1,450)</td><td>Vendor invoices plus accruals for un-invoiced days.</td><td>Invoice intake (Recipe D); accrual from timesheets.</td></tr>
+          <tr><td class="sub">Offshore delivery recharges</td><td class="num">(1,900)</td><td>Intercompany cross-charges from group delivery centres.</td><td>IC agent (module 08); agreed recharge model in Excel.</td></tr>
+          <tr><td class="sub">Licence cost of sales</td><td class="num">(1,250)</td><td>Vendor cost matched to licence revenue.</td><td>Matching rule: every licence sale has a cost line.</td></tr>
+          <tr class="st"><td>Gross margin · 23.6%</td><td class="num">3,300</td><td colspan="2"></td></tr>
+          <tr><td class="sub">Sales &amp; bid costs</td><td class="num">(620)</td><td>Sales salaries, commissions, bid travel.</td><td>Commission accrual from CRM bookings.</td></tr>
+          <tr><td class="sub">Admin &amp; finance</td><td class="num">(540)</td><td>Support staff, audit, legal, insurance.</td><td>Recurring and auto-reversing journals.</td></tr>
+          <tr><td class="sub">Office &amp; IT</td><td class="num">(310)</td><td>Utilities, internal IT, short leases.</td><td>Allocation cycle in the ERP.</td></tr>
+          <tr class="st"><td>EBITDA</td><td class="num">1,830</td><td colspan="2"></td></tr>
+          <tr><td class="sub">Depreciation &amp; amortisation</td><td class="num">(210)</td><td>Fixed assets and right-of-use assets (IFRS 16 office leases).</td><td>Automatic depreciation run in the ERP fixed asset module.</td></tr>
+          <tr><td class="sub">Finance cost (lease interest)</td><td class="num">(40)</td><td>Interest on lease liabilities.</td><td>Lease schedule roll-forward (module 12).</td></tr>
+          <tr class="st"><td>Profit before tax</td><td class="num">1,580</td><td colspan="2"></td></tr>
+          <tr><td class="sub">Corporate tax provision (≈9%)</td><td class="num">(142)</td><td>Monthly estimate of UAE corporate tax.</td><td>Formula-driven provision; Copilot scan for disallowables.</td></tr>
+          <tr class="grand"><td>Profit after tax</td><td class="num">1,438</td><td colspan="2"></td></tr>
+        </table>
+      </div>
+
+      <h3>The metrics behind the numbers</h3>
+      <div class="kpis">
+        <div class="kpi"><span class="k">Utilisation</span><h4>Billable hours ÷ available hours</h4><p>The meter running. A 5-point drop on 200 consultants can cost more than all office costs combined.</p></div>
+        <div class="kpi"><span class="k">Average bill rate</span><h4>T&amp;M revenue ÷ billed hours</h4><p>Shows discounting and mix shifts between senior and junior staff.</p></div>
+        <div class="kpi"><span class="k">Gross margin %</span><h4>By project, client and business line</h4><p>Fixed-price overruns show up here first.</p></div>
+        <div class="kpi"><span class="k">Revenue per head</span><h4>Revenue ÷ average delivery headcount</h4><p>A quick productivity check across GCC entities.</p></div>
+        <div class="kpi"><span class="k">EBITDA margin</span><h4>EBITDA ÷ revenue</h4><p>What group management usually targets.</p></div>
+        <div class="kpi"><span class="k">Unbilled revenue days</span><h4>Contract assets ÷ daily revenue</h4><p>Links the P&amp;L to cash: revenue earned but not yet invoiced.</p></div>
+      </div>
+
+      <h3>Fixed-price revenue: percentage of completion</h3>
+      <p class="col">Fixed-price projects are the hardest P&amp;L line to get right and the easiest to automate badly. The calculation is simple; the inputs (estimated cost to complete) need judgement every month.</p>
+      <div class="calcbox">Contract value: <b>AED 2,000,000</b> · Estimated total cost: <b>AED 1,500,000</b><br>Cost incurred to date: <b>AED 600,000</b> → progress = 600,000 ÷ 1,500,000 = <b>40%</b><br>Revenue to date = 40% × 2,000,000 = <b>AED 800,000</b><br>Already recognised in prior months: <b>AED 650,000</b><br>Revenue this month = 800,000 − 650,000 = <b>AED 150,000</b><br>If estimated total cost exceeds contract value, the expected loss is recognised immediately.</div>
+      <p class="col analogy">Building a villa with staged payments. You don't recognise the whole price when the foundation is poured; you recognise the share of the work done, and if the build will cost more than the price, you book the loss now.</p>
+      <div class="recipe" id="rL1">
+        <div class="stack-sm"><p class="eyebrow">Build L1 · Power Query + Copilot</p><h4>A POC revenue schedule that refreshes itself</h4>
+        <div class="meta"><span class="pill p-med">Medium</span><span class="pill p-neutral">Saves ~3 hrs / month, fewer errors</span><span class="pill p-neutral">Built into Excel</span></div></div>
+        <ol class="steps">
+          <li><span>Keep a <b>Project Estimates</b> table: project, contract value, estimated total cost, PM confirmation date. Project managers update the estimate monthly by WD-1.</span></li>
+          <li><span>Each month, export project cost to date from the ERP or project system into a folder.</span></li>
+          <li><span>In Power Query, merge cost to date with estimates on project. Add columns: % complete, revenue to date, less prior recognised (from last month's output), revenue this month, and a loss flag where estimate exceeds contract value.</span></li>
+          <li><span>Add flags: % complete moved more than 20 points in a month, estimate not confirmed this month, or project over 100%.</span></li>
+          <li><span>Ask Copilot: "For each flagged project, draft a one-line question to the project manager." Post the journal from the schedule once flags are cleared.</span></li>
+        </ol>
+        <p class="ctrl"><b>Control:</b> estimates are owned and confirmed by the PM and reviewed by the finance controller; AI never sets an estimate.</p>
+      </div>
+
+      <h3>P&amp;L automation map</h3>
+      <div class="tbl-wrap">
+        <table class="t">
+          <tr><th>Process</th><th>Today</th><th>Automated</th><th>Tool</th><th>Level</th></tr>
+          <tr><td>Recurring costs (rent, licences, insurance)</td><td>Same manual journal every month.</td><td>Recurring journal template posts automatically.</td><td>ERP</td><td><span class="pill p-easy">Easy</span></td></tr>
+          <tr><td>Accruals</td><td>Booked manually, reversed manually next month.</td><td>Auto-reversing accrual entries; accrual list built from open POs and prior months.</td><td>ERP + Copilot in Excel</td><td><span class="pill p-easy">Easy</span></td></tr>
+          <tr><td>Payroll journal</td><td>Re-keying totals from the payroll report.</td><td>Payroll file mapped to GL codes and cost centres by Power Query; upload template.</td><td>Power Query</td><td><span class="pill p-med">Medium</span></td></tr>
+          <tr><td>Shared cost allocations</td><td>Spreadsheet recalculated by hand.</td><td>Allocation cycle using headcount or revenue drivers.</td><td>ERP allocation</td><td><span class="pill p-med">Medium</span></td></tr>
+          <tr><td>Fixed-price revenue</td><td>Manual POC per project.</td><td>Build L1 schedule with PM estimate flags.</td><td>Power Query</td><td><span class="pill p-med">Medium</span></td></tr>
+          <tr><td>Flash P&amp;L</td><td>Waits until WD5 for final numbers.</td><td>Build L2 on WD2 from the trial balance so far.</td><td>Power Query + Copilot</td><td><span class="pill p-med">Medium</span></td></tr>
+          <tr><td>Flux analysis &amp; commentary</td><td>40 lines written from scratch.</td><td>Analyst or finance variance analysis drafts drivers; you confirm.</td><td>Copilot · Recipe A</td><td><span class="pill p-easy">Easy</span></td></tr>
+          <tr><td>Project profitability</td><td>Built once a quarter, if at all.</td><td>Monthly margin by project and client in Power BI.</td><td>Power BI</td><td><span class="pill p-hard">Advanced</span></td></tr>
+        </table>
+      </div>
+
+      <div class="recipe" id="rL2">
+        <div class="stack-sm"><p class="eyebrow">Build L2 · Power Query + Copilot</p><h4>Flash P&amp;L on working day 2</h4>
+        <div class="meta"><span class="pill p-med">Medium</span><span class="pill p-neutral">Management sees results 3 days earlier</span><span class="pill p-neutral">Excel + Copilot</span></div></div>
+        <div class="ba"><div class="before"><b>Before</b>Management waits for the full pack on WD5 to know how the month went.</div><div class="after"><b>After</b>A one-page flash on WD2 showing actual vs budget vs last month, with known open items listed and drivers drafted by Copilot.</div></div>
+        <ol class="steps">
+          <li><span>Create a <b>mapping table</b> once: GL account → P&amp;L line (the lines above). This is the backbone of every automated P&amp;L.</span></li>
+          <li><span>On WD2, export the trial balance and load it with Power Query; merge with the mapping and with budget and prior month.</span></li>
+          <li><span>Add a manual <b>Known adjustments</b> table for items not yet posted (e.g. pending recharge, AED 180k). Keep it visible in the flash.</span></li>
+          <li><span>Ask Copilot or Analyst: "For each P&amp;L line moving more than 10% vs last month or budget, list the top GL accounts driving it." Then use the <i>Flash P&amp;L commentary</i> prompt.</span></li>
+          <li><span>Send as "Flash, subject to close" with the known adjustments listed.</span></li>
+        </ol>
+        <p class="ctrl"><b>Control:</b> the flash ties to the trial balance total, every number carries the "unaudited flash" label, and the final pack reconciles any change from the flash.</p>
+      </div>
+
+      <div class="modfoot">
+        <p><strong>Do this today.</strong> Build the GL-to-P&amp;L mapping table for one entity. It takes an hour, and every later automation in this module depends on it.</p>
+        <button class="donebtn" type="button" data-done="pl" aria-pressed="false">Mark module 11 complete</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 BALANCE SHEET -->
+<section class="mod" id="m12">
+  <div class="wrap">
+    <div class="mod-head">
+      <div class="mod-num">12</div>
+      <div class="stack">
+        <p class="eyebrow">Module 12 · 90 minutes</p>
+        <h2>The balance sheet</h2>
+        <p class="lead col">The balance sheet shows what the company owns, what it owes, and what is left for its owners, on one date. Every number on it should be proven by a reconciliation. That proof is where the effort goes, and where automation pays off most.</p>
+        <div class="outcomes"><b>After this module you can</b><ul><li>Read an IT services balance sheet and know how each line is proven</li><li>Risk-rate your reconciliations so effort goes where risk is</li><li>Automate the ECL provision, gratuity, roll-forwards and a reconciliation hub</li></ul></div>
+      </div>
+    </div>
+
+    <div class="stack-lg">
+      <p class="col analogy">An annual health check-up. The doctor doesn't watch you all year (that's the P&amp;L); they measure you on one day. Each reading (blood pressure, cholesterol) needs a proper test behind it. A balance sheet line without a reconciliation is a reading nobody actually measured.</p>
+      <div class="calcbox">Assets = Liabilities + Equity<br>What the company <b>owns</b> = what it <b>owes</b> + what belongs to its <b>owners</b></div>
+
+      <h3>An IT services balance sheet, line by line</h3>
+      <p class="col small muted">Illustrative month-end balance sheet for a UAE IT services entity, AED thousands.</p>
+      <div class="tbl-wrap">
+        <table class="t fs">
+          <tr><th>Line</th><th class="num">AED '000</th><th>What it is</th><th>Proven by</th><th>Automation opportunity</th></tr>
+          <tr><td class="sub">Property, plant &amp; IT equipment</td><td class="num">1,850</td><td>Laptops, servers, office fit-out.</td><td>Fixed asset register roll-forward</td><td>ERP depreciation run; roll-forward template</td></tr>
+          <tr><td class="sub">Right-of-use assets</td><td class="num">2,400</td><td>Office leases capitalised under IFRS 16.</td><td>Lease schedule</td><td>Lease schedule in Excel or ERP lease module</td></tr>
+          <tr><td class="sub">Trade receivables, net</td><td class="num">17,873</td><td>Invoices issued, unpaid; less ECL allowance of 727.</td><td>AR ageing to GL; ECL matrix</td><td>ECL matrix (below); collections (Recipe E)</td></tr>
+          <tr><td class="sub">Contract assets (unbilled)</td><td class="num">6,300</td><td>Revenue earned, not yet invoiced.</td><td>Unbilled by project, PM confirmed</td><td>Leakage check (Recipe F); POC schedule (L1)</td></tr>
+          <tr><td class="sub">Prepayments &amp; deposits</td><td class="num">1,150</td><td>Annual licences and insurance paid in advance; rent deposits.</td><td>Prepayment schedule</td><td>Amortisation schedule; auto journal</td></tr>
+          <tr><td class="sub">Intercompany receivables</td><td class="num">3,200</td><td>Amounts due from group entities.</td><td>IC confirmation with counterpart</td><td>IC agent (module 08)</td></tr>
+          <tr><td class="sub">VAT recoverable</td><td class="num">280</td><td>Input VAT to be reclaimed.</td><td>VAT return to GL</td><td>VAT review prompt; return-to-GL check</td></tr>
+          <tr><td class="sub">Cash and bank</td><td class="num">5,640</td><td>All bank accounts, all currencies.</td><td>Bank reconciliations</td><td>Module 10</td></tr>
+          <tr class="st"><td>Total assets</td><td class="num">38,693</td><td colspan="3"></td></tr>
+          <tr><td class="sub">Employees' end-of-service benefits</td><td class="num">(3,900)</td><td>Gratuity owed under UAE Labour Law.</td><td>Gratuity calculation per employee</td><td>Gratuity build (below)</td></tr>
+          <tr><td class="sub">Lease liabilities</td><td class="num">(2,460)</td><td>Present value of lease payments (current 760, non-current 1,700).</td><td>Lease schedule</td><td>Same schedule as ROU assets</td></tr>
+          <tr><td class="sub">Trade payables</td><td class="num">(4,300)</td><td>Vendor invoices due.</td><td>AP ageing to GL; supplier statements</td><td>Invoice intake (Recipe D); statement matching</td></tr>
+          <tr><td class="sub">Accruals</td><td class="num">(3,650)</td><td>Costs incurred, not yet invoiced.</td><td>Accrual schedule with support</td><td>Auto-reversing accruals; Copilot accrual review</td></tr>
+          <tr><td class="sub">Contract liabilities (deferred revenue)</td><td class="num">(2,850)</td><td>Customers billed or paid in advance, e.g. annual support.</td><td>Deferred revenue schedule</td><td>Release schedule from contract register</td></tr>
+          <tr><td class="sub">Intercompany payables</td><td class="num">(5,100)</td><td>Amounts due to group entities, mainly delivery recharges.</td><td>IC confirmation</td><td>IC agent (module 08)</td></tr>
+          <tr><td class="sub">VAT payable</td><td class="num">(610)</td><td>Output VAT due to the FTA.</td><td>VAT return to GL</td><td>Return-to-GL check</td></tr>
+          <tr><td class="sub">Corporate tax payable</td><td class="num">(1,420)</td><td>Tax provision accumulated for the year.</td><td>Tax provision workpaper</td><td>Formula provision; disallowables scan</td></tr>
+          <tr class="st"><td>Total liabilities</td><td class="num">(24,290)</td><td colspan="3"></td></tr>
+          <tr class="grand"><td>Equity (share capital 300 + retained earnings 14,103)</td><td class="num">14,403</td><td colspan="3">Assets 38,693 − liabilities 24,290 = equity 14,403.</td></tr>
+        </table>
+      </div>
+
+      <h3>Risk-rate your reconciliations</h3>
+      <p class="col analogy">Hospital triage. The emergency department doesn't treat patients in arrival order; it treats the most serious first. Reconcile the same way: effort follows risk, not the order of the chart of accounts.</p>
+      <div class="trust">
+        <div class="card"><h4><span class="sw r"></span>High risk · monthly, detailed</h4><p>Cash, trade receivables, contract assets, intercompany, accruals, deferred revenue, tax.</p><p class="small muted">Full reconciliation, supporting detail, reviewer sign-off by WD5.</p></div>
+        <div class="card"><h4><span class="sw a"></span>Medium risk · monthly, lighter</h4><p>Prepayments, payables, EOSB, leases, fixed assets.</p><p class="small muted">Roll-forward schedule, analytic review of movement.</p></div>
+        <div class="card"><h4><span class="sw g"></span>Low risk · quarterly</h4><p>Dormant accounts, small deposits, zero-balance clearing accounts.</p><p class="small muted">Auto-certify when the balance is zero and there is no activity.</p></div>
+      </div>
+
+      <h3>Build M1: the ECL provision matrix (try it)</h3>
+      <p class="col">Under IFRS 9 most companies estimate expected credit losses on trade receivables with a provision matrix: a loss rate for each ageing bucket, based on history and adjusted for the outlook. Change any rate to see the effect.</p>
+      <div class="tbl-wrap ecl">
+        <table class="t sm" id="eclT"></table>
+        <div class="ecl-out" aria-live="polite"><div><div class="big" id="eclTot">0</div><div class="lbl">required allowance, AED '000</div></div><div><div class="big" id="eclBook">690</div><div class="lbl">allowance in the ledger before this month</div></div><div><div class="big" id="eclJ">0</div><div class="lbl">top-up (release) journal this month</div></div></div>
+      </div>
+      <ol class="steps">
+        <li><span>Export AR ageing by invoice each month. Power Query groups it into the six buckets.</span></li>
+        <li><span>Keep the loss rates in a small table reviewed quarterly by the controller, with the history and outlook adjustments documented.</span></li>
+        <li><span>The query multiplies, totals, compares to the current allowance and proposes the journal.</span></li>
+        <li><span>Ask Copilot to draft the quarterly provision memo with the <i>ECL memo</i> prompt in module 04, and to list customers with specific risks (disputes, insolvency) that need a separate, specific provision.</span></li>
+      </ol>
+
+      <h3>Build M2: end-of-service gratuity</h3>
+      <p class="col">UAE private-sector employees with at least one year of service earn gratuity of 21 days' basic salary per year for the first five years and 30 days per year after that, capped at two years' basic salary. The liability is recalculated each month and the movement is booked.</p>
+      <div class="calcbox">Employee: basic salary <b>AED 15,000</b>/month · service <b>7 years</b><br>Daily wage = 15,000 ÷ 30 = <b>AED 500</b><br>First 5 years: 5 × 21 × 500 = <b>AED 52,500</b><br>Next 2 years: 2 × 30 × 500 = <b>AED 30,000</b><br>Liability = <b>AED 82,500</b> (cap of 24 × 15,000 = AED 360,000 not reached)</div>
+      <ol class="steps">
+        <li><span>Export the HR master each month: employee ID, joining date, current basic salary, leaving date if any.</span></li>
+        <li><span>In Power Query, calculate service years at month-end and the liability per employee with the formula and cap.</span></li>
+        <li><span>Total the liability, subtract last month's balance and this month's payments to leavers: the difference is this month's expense journal, split by cost centre.</span></li>
+        <li><span>Flag employees whose basic salary changed or who passed 5 years this month; those explain most of the movement.</span></li>
+      </ol>
+      <p class="col small muted">Confirm the basis with HR and payroll: some employers participate in the alternative end-of-service savings scheme, and contracts or group policy may be more generous than the legal minimum.</p>
+
+      <h3>Build M3: the balance sheet reconciliation hub</h3>
+      <div class="recipe" id="rM">
+        <div class="stack-sm"><p class="eyebrow">Power Query + Microsoft Lists + Power Automate + Copilot</p><h4>Every account, its status, its risks and its sign-off in one place</h4>
+        <div class="meta"><span class="pill p-med">Medium</span><span class="pill p-neutral">Saves ~6 hrs / month; audit-ready</span><span class="pill p-neutral">Reuses Build J</span></div></div>
+        <div class="ba"><div class="before"><b>Before</b>A folder of reconciliation files of varying quality; nobody knows which are done, which balance, or which hide old items.</div><div class="after"><b>After</b>One list with every balance sheet account, its balance, reconciled balance, difference, aged items and sign-off, and automatic flags for anything that needs attention.</div></div>
+        <ol class="steps">
+          <li><span>Standardise one reconciliation template: balance per GL, supporting detail, reconciling items with dates, difference (must be zero), preparer and reviewer.</span></li>
+          <li><span>Build a Microsoft List, <b>BS Reconciliations</b>: account, entity, risk rating, frequency, owner, reviewer, GL balance, reconciled balance, difference, items over 60 days, status, link to file.</span></li>
+          <li><span>Each month, Power Query loads the trial balance and updates GL balances in the list (or in a linked Excel table if your IT team prefers).</span></li>
+          <li><span>Flags: difference not zero; items over 60 days; balance moved more than 20% and more than AED 50,000; low-risk account with zero balance and no activity, which is auto-certified.</span></li>
+          <li><span>Reuse Build J's flows: reminders to owners by due WD, approval routing to reviewers, daily status in Teams.</span></li>
+          <li><span>Use Analyst for the balance sheet flux: "Compare this month's balance sheet with last month and the same month last year. For each line moving more than 10% and AED 100k, explain the likely driver from the GL detail." Then confirm each explanation.</span></li>
+        </ol>
+        <p class="analogy">A building's fire-safety board. Every floor shows green or red, and an alarm triggers on its own when something is wrong. Nobody walks every corridor to check.</p>
+        <p class="ctrl"><b>Control:</b> a non-zero unexplained difference is never closed as "reconciled". Reviewer sign-off is captured with date in the list's version history, which is your audit evidence.</p>
+      </div>
+
+      <h3>Roll-forwards: one pattern for many accounts</h3>
+      <p class="col">Fixed assets, prepayments, leases, deferred revenue and gratuity all follow the same shape. Build the template once and reuse it.</p>
+      <div class="calcbox">Opening balance<br>+ additions (new assets, new prepayments, new leases, new billing in advance)<br>− releases (depreciation, amortisation, lease payments, revenue released, payments to leavers)<br>± other (FX, remeasurements, disposals)<br>= <b>Closing balance → must equal the GL</b></div>
+      <p class="col analogy">A water tank: what was in it, plus what flowed in, minus what flowed out, must equal what is in it now. If it doesn't, there is a leak somewhere.</p>
+
+      <div class="quiz" data-quiz="5"><p class="eyebrow">Part IV knowledge check</p><div class="qwrap"></div><p class="qscore"></p></div>
+
+      <div class="modfoot">
+        <p><strong>Do this today.</strong> List your balance sheet accounts and give each a risk rating. Count how many you reconcile monthly that could move to quarterly. That is your first, zero-cost close saving.</p>
+        <button class="donebtn" type="button" data-done="bs" aria-pressed="false">Mark module 12 complete</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function(){
+function $(id){return document.getElementById(id)}
+function fmt(n){var s=Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});return n<0?'('+s+')':s}
+/* ---- bank rec simulator ---- */
+var BANK=[
+ {id:'B1',d:'03-Nov',t:'Receipt · Client A · INV-1041',a:150000},
+ {id:'B2',d:'05-Nov',t:'Transfer · TechSupply · PV-778',a:-42500},
+ {id:'B3',d:'10-Nov',t:'Receipt · Client B · 2 invoices',a:88200},
+ {id:'B4',d:'12-Nov',t:'WPS salary transfer · NOV',a:-310000},
+ {id:'B5',d:'18-Nov',t:'Receipt · Client C · "PMT NOV"',a:64750},
+ {id:'B6',d:'28-Nov',t:'Bank charges · transfers',a:-262.5},
+ {id:'B7',d:'30-Nov',t:'Profit on call deposit',a:1450}
+];
+var GLR=[
+ {id:'G1',d:'03-Nov',t:'INV-1041 · Client A',a:150000},
+ {id:'G2',d:'05-Nov',t:'PV-778 · TechSupply',a:-42500},
+ {id:'G3',d:'09-Nov',t:'INV-1050 · Client B',a:50000},
+ {id:'G4',d:'09-Nov',t:'INV-1051 · Client B',a:38200},
+ {id:'G5',d:'12-Nov',t:'Payroll November',a:-310000},
+ {id:'G6',d:'17-Nov',t:'INV-1060 · Client C',a:64750},
+ {id:'G7',d:'29-Nov',t:'Cheque 004512 · Landlord',a:-95000},
+ {id:'G8',d:'30-Nov',t:'INV-1072 · Client E',a:27300}
+];
+var STEPS=[
+ {b:{B1:'Rule 1',B2:'Rule 1'},g:{G1:'Rule 1',G2:'Rule 1'},m:'Rule 1 matched 2 pairs where amount and reference agree exactly: INV-1041 and PV-778. This is the strictest rule, so it runs first and is almost never wrong.'},
+ {b:{B4:'Rule 2',B5:'Rule 2'},g:{G5:'Rule 2',G6:'Rule 2'},m:'Rule 2 matched 2 more on amount with dates within 3 days: the WPS salary transfer, and Client C\'s receipt, where the customer used their own reference "PMT NOV". Looser rules need a human glance, because two items can share an amount.'},
+ {b:{B3:'Rule 3'},g:{G3:'Rule 3',G4:'Rule 3'},m:'Rule 3 found one bank receipt of 88,200 that equals two Client B invoices (50,000 + 38,200). Customers often pay several invoices in one transfer; good engines search for combinations by customer.'},
+ {b:{B6:'Book it',B7:'Book it'},g:{G7:'Timing',G8:'Timing'},m:'Four exceptions remain, and none is an error. Bank charges and deposit profit are at the bank but not in the books, so post journals. The landlord cheque and Client E receipt are in the books but not yet at the bank: timing items that go on the reconciliation. The statement below proves it to the fils.'}
+];
+var step=0,stB={},stG={};
+function chip(s){if(!s)return '<span class="chip">Open</span>';var c=(s==='Book it'||s==='Timing')?'x':'m';return '<span class="chip '+c+'">'+s+'</span>'}
+function table(el,rows,st){var h='<tr><th>Date</th><th>Description</th><th class="num">AED</th><th>Status</th></tr>';rows.forEach(function(r){h+='<tr><td>'+r.d+'</td><td>'+r.t.replace(/&/g,'&amp;')+'</td><td class="num">'+fmt(r.a)+'</td><td>'+chip(st[r.id])+'</td></tr>'});el.innerHTML=h}
+function render(){table($('simB'),BANK,stB);table($('simG'),GLR,stG);
+ ['simR1','simR2','simR3','simR4'].forEach(function(id,i){$(id).disabled=(i!==step)});
+ var matched=0;BANK.forEach(function(r){if(stB[r.id]&&stB[r.id].indexOf('Rule')===0)matched++});
+ $('simMsg').textContent=step===0?'Seven bank lines and eight ledger lines. Press Rule 1 to start matching.':STEPS[step-1].m+' Bank lines auto-matched so far: '+matched+' of 7.';
+ var rec=$('simRec');
+ if(step===4){
+  var bank=BANK.reduce(function(s,r){return s+r.a},500000),book=GLR.reduce(function(s,r){return s+r.a},500000);
+  var adjB=bank+27300-95000,adjG=book-262.5+1450;
+  rec.innerHTML='<div><h4>Bank side</h4><table><tr><td>Balance per bank statement</td><td class="n">'+fmt(bank)+'</td></tr><tr><td>Add: deposit in transit (INV-1072)</td><td class="n">27,300.00</td></tr><tr><td>Less: unpresented cheque 004512</td><td class="n">(95,000.00)</td></tr><tr class="tot"><td>Adjusted bank balance</td><td class="n">'+fmt(adjB)+'</td></tr></table></div><div><h4>Book side</h4><table><tr><td>Balance per general ledger</td><td class="n">'+fmt(book)+'</td></tr><tr><td>Less: bank charges not booked</td><td class="n">(262.50)</td></tr><tr><td>Add: profit on deposit not booked</td><td class="n">1,450.00</td></tr><tr class="tot"><td>Adjusted book balance</td><td class="n">'+fmt(adjG)+'</td></tr></table></div>';
+  rec.hidden=false;
+ }else{rec.hidden=true;rec.innerHTML=''}
+}
+function apply(){var s=STEPS[step];for(var k in s.b)stB[k]=s.b[k];for(var j in s.g)stG[j]=s.g[j];step++;render()}
+['simR1','simR2','simR3','simR4'].forEach(function(id){$(id).addEventListener('click',apply)});
+$('simReset').addEventListener('click',function(){step=0;stB={};stG={};render()});
+render();
+
+/* ---- ECL matrix ---- */
+var B=[["Not yet due",10200,0.5],["1–30 days",3900,1.5],["31–90 days",2300,4],["91–180 days",1100,10],["181–365 days",700,25],["Over 365 days",400,60]];
+var t=$('eclT');var h='<tr><th>Ageing bucket</th><th class="num">Receivables AED \'000</th><th class="num">Loss rate %</th><th class="num">Allowance AED \'000</th></tr>';
+B.forEach(function(b,i){h+='<tr><td>'+b[0]+'</td><td class="num">'+b[1].toLocaleString('en-US')+'</td><td class="num"><input id="ecl'+i+'" type="number" min="0" max="100" step="0.5" value="'+b[2]+'" aria-label="Loss rate for '+b[0]+'"></td><td class="num" id="eclo'+i+'"></td></tr>'});
+h+='<tr><td>Total</td><td class="num">18,600</td><td></td><td class="num" id="eclsum"></td></tr>';t.innerHTML=h;
+function ecl(){var tot=0;B.forEach(function(b,i){var r=Math.max(0,Math.min(100,parseFloat($('ecl'+i).value)||0));var v=b[1]*r/100;tot+=v;$('eclo'+i).textContent=v.toFixed(1)});
+ $('eclsum').textContent=tot.toFixed(1);$('eclTot').textContent=Math.round(tot).toLocaleString('en-US');var j=Math.round(tot)-690;$('eclJ').textContent=(j>=0?'+':'−')+Math.abs(j).toLocaleString('en-US')}
+t.addEventListener('input',ecl);ecl();
+})();
+</script>
+
+<style>
 .datatl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .calc{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;overflow:hidden}
 .calc-row{display:grid;grid-template-columns:1fr 110px 110px 110px;gap:12px;padding:12px 18px;border-top:1px solid var(--rule);align-items:center;font-variant-numeric:tabular-nums}
@@ -1057,15 +1580,15 @@ footer{padding-block:40px 64px;color:var(--muted);font-size:.9rem}
 </style>
 
 <!-- ================= PART IV ================= -->
-<div class="partband"><div class="wrap"><p class="eyebrow">Part IV · Govern &amp; grow</p><h2>Stay in control, then scale it</h2><p>Three modules. The controls that keep your work audit-proof, a 12-week plan with a business case for your manager, and the reference library you will keep coming back to.</p></div></div>
+<div class="partband"><div class="wrap"><p class="eyebrow">Part V · Govern &amp; grow</p><h2>Stay in control, then scale it</h2><p>Three modules. The controls that keep your work audit-proof, a 12-week plan with a business case for your manager, and the reference library you will keep coming back to.</p></div></div>
 
 <!-- 09 -->
-<section class="mod" id="m9">
+<section class="mod" id="m13">
   <div class="wrap">
     <div class="mod-head">
-      <div class="mod-num">09</div>
+      <div class="mod-num">13</div>
       <div class="stack">
-        <p class="eyebrow">Module 09 · 30 minutes</p>
+        <p class="eyebrow">Module 13 · 30 minutes</p>
         <h2>Controls: AI without getting burned</h2>
         <p class="lead col">Accountants already have the right instincts: segregation of duties, evidence, review, authorisation limits. Apply exactly those to AI, and you will be the person in the room who makes AI safe rather than the one who blocks it.</p>
         <div class="outcomes"><b>After this module you can</b><ul><li>Classify data before you use it with AI</li><li>Name the main AI risks in finance and the control for each</li><li>Document an automation so an auditor is satisfied</li></ul></div>
@@ -1102,19 +1625,19 @@ footer{padding-block:40px 64px;color:var(--muted);font-size:.9rem}
 
       <div class="modfoot">
         <p><strong>Do this today.</strong> Read your company's AI or acceptable-use policy (search the intranet for "AI policy" or "Copilot"). Note anything stricter than this module and follow it.</p>
-        <button class="donebtn" type="button" data-done="m9" aria-pressed="false">Mark module 09 complete</button>
+        <button class="donebtn" type="button" data-done="m9" aria-pressed="false">Mark module 13 complete</button>
       </div>
     </div>
   </div>
 </section>
 
 <!-- 10 -->
-<section class="mod" id="m10">
+<section class="mod" id="m14">
   <div class="wrap">
     <div class="mod-head">
-      <div class="mod-num">10</div>
+      <div class="mod-num">14</div>
       <div class="stack">
-        <p class="eyebrow">Module 10 · your 12-week plan</p>
+        <p class="eyebrow">Module 14 · your 12-week plan</p>
         <h2>From first prompt to first agent</h2>
         <p class="lead col">About two to three hours a week, aligned to the four parts. Tick tasks as you go: they count toward your rank. At the end you will have working automations, measured savings, and a one-page story for your manager.</p>
         <div class="outcomes"><b>After this module you can</b><ul><li>Follow a realistic week-by-week path</li><li>Measure and present the time you saved</li><li>Propose the next automation with a business case</li></ul></div>
@@ -1153,19 +1676,19 @@ Proposal
 
       <div class="modfoot">
         <p><strong>Do this today.</strong> Put three recurring 1-hour blocks in your Outlook calendar called "AI practice" for the next 12 weeks. Protected time is the difference between reading this course and finishing it.</p>
-        <button class="donebtn" type="button" data-done="m10" aria-pressed="false">Mark module 10 complete</button>
+        <button class="donebtn" type="button" data-done="m10" aria-pressed="false">Mark module 14 complete</button>
       </div>
     </div>
   </div>
 </section>
 
 <!-- 11 -->
-<section class="mod" id="m11">
+<section class="mod" id="m15">
   <div class="wrap">
     <div class="mod-head">
-      <div class="mod-num">11</div>
+      <div class="mod-num">15</div>
       <div class="stack">
-        <p class="eyebrow">Module 11 · reference</p>
+        <p class="eyebrow">Module 15 · reference</p>
         <h2>Library &amp; glossary</h2>
         <p class="lead col">Hand-picked videos, courses, official guides, reports and research papers, in the order a beginner should take them. Start with anything marked "Start here".</p>
       </div>
@@ -1178,11 +1701,11 @@ Proposal
       <input class="gloss-search" id="gq" type="search" placeholder="Search terms, e.g. agent, token, RPA" aria-label="Search glossary">
       <dl class="gloss" id="gloss"></dl>
 
-      <div class="quiz" data-quiz="4"><p class="eyebrow">Part IV knowledge check</p><div class="qwrap"></div><p class="qscore"></p></div>
+      <div class="quiz" data-quiz="4"><p class="eyebrow">Part V knowledge check</p><div class="qwrap"></div><p class="qscore"></p></div>
 
       <div class="modfoot">
         <p><strong>Keep going.</strong> AI tools change every few months. Spend 15 minutes on the first Monday of each month reading "What's new in Microsoft 365 Copilot" and trying one new feature on real work.</p>
-        <button class="donebtn" type="button" data-done="m11" aria-pressed="false">Mark module 11 complete</button>
+        <button class="donebtn" type="button" data-done="m11" aria-pressed="false">Mark module 15 complete</button>
       </div>
     </div>
   </div>
@@ -1191,7 +1714,7 @@ Proposal
 
 <footer>
   <div class="wrap stack">
-    <p>Edition 2, prepared October 2026. Product features, licences and UAE regulations change; confirm current details with your IT team, Microsoft Learn and the Federal Tax Authority before acting. Time-saving figures are illustrative planning estimates, not guarantees. Agent and product names belong to their respective vendors; this course is independent and not affiliated with any of them.</p>
+    <p>Edition 3, updated November 2026. Product features, licences and UAE regulations change; confirm current details with your IT team, Microsoft Learn and the Federal Tax Authority before acting. Time-saving figures are illustrative planning estimates, not guarantees. Agent and product names belong to their respective vendors; this course is independent and not affiliated with any of them.</p>
   </div>
 </footer>
 
@@ -1253,6 +1776,13 @@ var PROMPTS=[
  {c:"Communication",t:"Respond to an auditor query",p:"You are a financial controller responding to the external auditors.\nTask: draft a response to the audit query below.\nContext: query: \"[paste query]\". My notes and facts: [bullet points]. Supporting documents available: [list].\nFormat: professional, factual, under 200 words, with a numbered list of the documents we will provide.\nCheck: highlight any statement in your draft that I have not given you evidence for."},
  {c:"Communication",t:"Meeting or thread summary",p:"Summarise this [Teams meeting / email thread].\nFormat: 1) decisions made, 2) actions with owner and due date as a table, 3) open questions, 4) anything with a financial impact and its estimated amount.\nKeep it under 200 words. Do not add actions that were not agreed."},
  {c:"Communication",t:"Explain finance to a non-finance manager",p:"Explain [e.g. why revenue for the Riyadh project is lower than invoiced this quarter] to a delivery director with no accounting background.\nUse one everyday analogy, no jargon, and finish with what they can do to help (e.g. get client acceptance signed before month-end).\nUnder 150 words."},
+ {c:"Close & statements",t:"Close status summary",p:"Using the Close Checklist list and this week's Close channel messages, write today's close status for the financial controller.\nFormat: 1) overall status (on track / at risk / late) with one-line reason, 2) critical-path tasks due today and their status, 3) overdue tasks by owner, 4) blockers and who is needed to unblock each, 5) forecast day the pack will be issued.\nKeep it under 200 words. Use only facts from the list and messages; mark anything you are inferring."},
+ {c:"Close & statements",t:"Bank reconciliation exceptions",p:"Act as a senior treasury accountant.\nUsing the attached unmatched bank and ledger items for [account, month], classify each item as: deposit in transit, unpresented cheque, bank charge or credit not yet booked, possible error, or unknown.\nFormat: a table with item, amount AED, classification, evidence for it, and next action (journal, follow up with bank, follow up with customer, wait).\nThen draft the journals needed for items at the bank but not in the books.\nCheck: flag items older than 30 days and any item where the classification is a guess."},
+ {c:"Close & statements",t:"Flash P&L commentary",p:"You are the finance business partner for our Middle East IT services business.\nUsing the attached flash P&L (actual, budget, last month) and the list of known adjustments not yet posted, write a one-page flash commentary for the regional MD.\nFormat: headline sentence (revenue, gross margin %, EBITDA vs budget), then one bullet each for revenue, gross margin, overheads and EBITDA, then 'Known adjustments still to post'.\nCheck: label it 'Flash, subject to close'. Do not invent drivers; where the data does not explain a movement, write 'Driver to confirm'."},
+ {c:"Close & statements",t:"P&L flux analysis",p:"Use Analyst.\nCompare this month's P&L with last month and with the same month last year, using the attached trial balances and the GL-to-P&L mapping.\nFor every P&L line moving more than 10% and more than AED 100,000, list the top 3 GL accounts and the top 5 transactions driving the movement.\nFormat: one table per line. Then a 5-bullet summary of the biggest drivers.\nCheck: reconcile your P&L totals to the trial balance and show the check."},
+ {c:"Close & statements",t:"Balance sheet review",p:"Act as a financial controller reviewing the month-end balance sheet.\nUsing the attached balance sheet (this month, last month, same month last year) and the reconciliation status list, identify: lines moving more than 10% and AED 100k with likely drivers, reconciliations with differences or items over 60 days, and accounts with unusual balances (e.g. debit balance on a liability).\nFormat: three tables, then the 5 questions I should ask the preparers.\nCheck: separate what the data shows from what you are inferring."},
+ {c:"Close & statements",t:"ECL provision memo",p:"You are an IFRS 9 specialist.\nDraft a quarterly memo supporting the expected credit loss allowance on trade receivables for [entity], using the attached ageing, loss-rate history and provision matrix.\nCover: the simplified approach used, how loss rates were derived from history, forward-looking adjustments (e.g. government payment cycles, sector conditions in the GCC), customers with specific provisions and why, the movement in the allowance this quarter, and judgements made.\nFormat: memo with headings, under 2 pages.\nCheck: list every assumption and every number I need to verify."},
+ {c:"Close & statements",t:"Gratuity movement explanation",p:"Using the attached end-of-service gratuity calculations for last month and this month (employee ID, joining date, basic salary, service years, liability), explain the movement in the total liability.\nSplit it into: new joiners, leavers paid, salary changes, employees passing 5 years of service, and normal accrual for time served.\nFormat: a bridge table from opening to closing balance, then 3 bullets of commentary.\nCheck: the bridge must add up exactly; show the check."},
  {c:"Technique",t:"Interview me first",p:"I need help with [task, e.g. designing a month-end close checklist for our UAE and KSA entities].\nBefore you start, ask me up to 7 questions, one at a time, about anything you need to do this well. After I answer them all, summarise what you understood, then produce the deliverable."},
  {c:"Technique",t:"Challenge my work (auditor mode)",p:"Act as a sceptical external audit manager.\nReview the attached [provision memo / reconciliation / schedule]. List the 5 questions you would raise, the evidence you would request, and the weakest point in my reasoning.\nDo not be polite; be useful."},
  {c:"Technique",t:"Explain a concept I don't understand",p:"Explain [concept, e.g. Copilot Studio agents, or retrieval augmented generation] to me.\nI am an experienced accountant with very limited IT knowledge.\nUse one analogy from accounting or everyday life in the UAE, a 3-step real example from a finance team, and finish with 3 questions I could ask our IT team about it."},
@@ -1308,6 +1838,9 @@ var QUIZ={
  3:[{q:"Invoices arrive by email in different layouts. Best approach?",o:["Pure rules-based automation","Rules trigger, AI extracts, low-confidence items go to a human","Ask an agent to post them directly to the ledger"],a:1,w:"Combine rules, AI and a human checkpoint, as in Recipe D."},
     {q:"A scheduled reconciliation that emails you exceptions to review is which autonomy level?",o:["L1 Assistant","L3 Supervised agent","L4 Autonomous"],a:1,w:"It runs a whole process on a trigger and stops for your review: supervised."},
     {q:"Which permission should a new finance agent start with?",o:["Read-only","Post journals under AED 10,000","Change vendor master data"],a:0,w:"Start read-only. Widen access only with evidence and formal approval."}],
+ 5:[{q:"A receipt recorded in your books on 30 November reaches the bank on 1 December. On the November bank reconciliation it is…",o:["An error to correct","A deposit in transit: add it to the bank balance","A bank charge to book"],a:1,w:"It is a timing difference. No journal; it is added to the bank balance and should clear in a few days."},
+    {q:"What should come first when speeding up the close?",o:["Build a Close Coordinator agent","Eliminate and standardise low-value steps","Ask IT for a new ERP"],a:1,w:"Climb the ladder from the bottom: eliminate, then standardise, then automate. Automating waste only makes it faster."},
+    {q:"Fixed-price contract AED 2m, estimated total cost AED 1.5m, cost to date AED 750k. Revenue to date?",o:["AED 750k","AED 1.0m","AED 1.5m"],a:1,w:"750k ÷ 1.5m = 50% complete, and 50% × AED 2m = AED 1.0m."}],
  4:[{q:"Where should a client contract go for summarising?",o:["Any free chatbot","Microsoft 365 Copilot under your company login","Nowhere; never use AI on contracts"],a:1,w:"Contracts are amber, internal data: use the company-approved Copilot."},
     {q:"An email asks to change a vendor's bank details. It is perfectly written. You…",o:["Update it, since it came from the vendor's domain","Verify by calling a known number before anything changes","Ask Copilot whether it looks genuine"],a:1,w:"AI makes fraud emails convincing. Call-back verification is the control."},
     {q:"What makes an automation audit-ready?",o:["It has never failed","Owner, review step, control totals and a run log","It was built by IT"],a:1,w:"Auditors want to see who owns it, how it is reviewed and evidence of each run."}]
@@ -1334,8 +1867,8 @@ document.querySelectorAll('.quiz').forEach(function(box){
 var WEEKS=[
  ["Weeks 1–3","Part I + start Part II",["Watch the 3Blue1Brown LLM video (8 min)","Complete modules 01 and 02","Use Copilot in Outlook or Teams every day for one task","Fill in the close calendar hours (module 03)","Start your 'My prompts' page"]],
  ["Weeks 4–6","Part II in practice",["Complete the prompting masterclass and save 5 prompts","Run Recipe A on this month's variance commentary","Try Researcher and Analyst once each on real work","Ask IT which of Power Automate, AI Builder and Finance agents are enabled"]],
- ["Weeks 7–9","Part III: build",["Score your top 3 tasks with the scorer (module 06)","Build Recipe B (GCC consolidation) or Recipe F (leakage check)","Build Finance Policy Buddy with Agent Builder","Run Recipe H on the vendor master for e-invoicing"]],
- ["Weeks 10–12","Part IV: prove and scale",["Build Recipe C or D with IT support, in parallel with manual","Write the one-page record for each automation (module 09)","Measure real hours saved and update the calculator","Send the note to your manager with the Agent B proposal"]]
+ ["Weeks 7–9","Part III: build",["Score your top 3 tasks with the scorer (module 06)","Build Recipe B (GCC consolidation) or Recipe F (leakage check)","Build Finance Policy Buddy with Agent Builder","Run Recipe H on the vendor master for e-invoicing","Run the bank reconciliation simulator and Build K on one account (module 10)","Build the GL-to-P&L mapping and a flash P&L (module 11)"]],
+ ["Weeks 10–12","Parts IV–V: prove and scale",["Build Recipe C or D with IT support, in parallel with manual","Write the one-page record for each automation (module 13)","Measure real hours saved and update the calculator","Send the note to your manager with the Agent B proposal","Set up the Close Command Centre (Build J) for next month's close","Risk-rate balance sheet accounts and start the rec hub (Build M3)"]]
 ];
 var plan=load('aira2-plan',{}),wk=$('weeks');
 WEEKS.forEach(function(w,wi){var div=document.createElement('div');div.className='week';
@@ -1351,11 +1884,11 @@ var done=load('aira2-done',{});
 var RANKS=[["Observer",0],["Apprentice",10],["Practitioner",35],["Automator",60],["Agent Architect",90]];
 function rank(){
   var md=0;document.querySelectorAll('[data-done]').forEach(function(b){if(done[b.dataset.done])md++});
-  var pp=planProg();var pct=Math.round((md+pp[0])/(11+pp[1])*100);
+  var pp=planProg();var nm=document.querySelectorAll('[data-done]').length;var pct=Math.round((md+pp[0])/(nm+pp[1])*100);
   var cur=RANKS[0][0];RANKS.forEach(function(r){if(pct>=r[1])cur=r[0]});
   $('rankchip').textContent='Rank: '+cur;
   var rk=$('ranks');rk.innerHTML='';RANKS.forEach(function(r){var s=document.createElement('span');s.className='rank'+(r[0]===cur?' on':'');s.textContent=r[0];rk.appendChild(s)});
-  $('rankline').textContent=md+' of 11 modules complete · '+pp[0]+' of '+pp[1]+' plan tasks done · '+pct+'% of the journey.';
+  $('rankline').textContent=md+' of '+nm+' modules complete · '+pp[0]+' of '+pp[1]+' plan tasks done · '+pct+'% of the journey.';
   document.querySelectorAll('#nav a').forEach(function(a){a.classList.toggle('done',!!done[a.dataset.m])});
 }
 document.querySelectorAll('[data-done]').forEach(function(b){
@@ -1366,7 +1899,7 @@ document.querySelectorAll('[data-done]').forEach(function(b){
 rank();
 
 /* ---- calculator ---- */
-var TASKS=[["Vendor invoice entry",12,60],["Bank & intercompany reconciliations",10,50],["Consolidating entity files",6,70],["Variance commentary & management pack",10,45],["Collections emails & follow-up",5,40],["Email, meeting notes & admin",15,25],["Audit, tax queries & policy questions",6,30]];
+var TASKS=[["Vendor invoice entry",12,60],["Bank & intercompany reconciliations",10,50],["Consolidating entity files",6,70],["Variance commentary & management pack",10,45],["Collections emails & follow-up",5,40],["Email, meeting notes & admin",15,25],["Audit, tax queries & policy questions",6,30],["Balance sheet reconciliations & roll-forwards",12,40],["Close coordination & status chasing",6,50]];
 var calc=$('calc');
 var html='<div class="calc-row h"><span>Task</span><span style="text-align:right">Hrs / month</span><span class="pctcol" style="text-align:right">Saving %</span><span style="text-align:right">Hrs saved</span></div>';
 TASKS.forEach(function(t,i){html+='<div class="calc-row"><label for="h'+i+'">'+t[0].replace(/&/g,'&amp;')+'</label><input id="h'+i+'" type="number" min="0" step="0.5" value="'+t[1]+'"><span class="pctcol"><input id="s'+i+'" type="number" min="0" max="100" step="5" value="'+t[2]+'" aria-label="Saving percent"></span><span class="out" id="o'+i+'"></span></div>'});
